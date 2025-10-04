@@ -1,0 +1,8 @@
+setup.py
+calcutils/__init__.py
+calcutils/advanced_ops.py
+calcutils/basic_ops.py
+calcutils.egg-info/PKG-INFO
+calcutils.egg-info/SOURCES.txt
+calcutils.egg-info/dependency_links.txt
+calcutils.egg-info/top_level.txt
