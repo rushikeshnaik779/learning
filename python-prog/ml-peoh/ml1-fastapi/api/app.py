@@ -3,11 +3,11 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
+
 # initialize the FASTAPI App 
 app = FastAPI()
-path = "../models/cifar10_model.h5"
+path = "models/cifar10_model.h5"
 model = tf.keras.models.load_model(path)
-
 class_name = ["airplane", "automobile", "bird", "cat", "deer", "dog", "frog", "horse", "ship", "truck"]
 
 @app.post("/predict/")
