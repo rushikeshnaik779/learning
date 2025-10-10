@@ -1,0 +1,1 @@
+# curl -X POST -F "file=@/Users/rushikeshnaik/Desktop/projects/python_proj/python-prog/ml-peoh/ml1-fastapi/data/test/AIRPLANE.jpeg" http://127.0.0.1:8000/predict/
